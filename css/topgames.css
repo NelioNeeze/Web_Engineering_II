@@ -1,0 +1,83 @@
+body {
+    background-color: #212426;
+    font-family: 'Poppins', sans-serif;
+    color: antiquewhite;
+}
+
+.gamepic {
+    object-fit: cover;
+    object-position: center center;
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+}
+
+.game {
+    align-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px;
+    background-color: #1d1d1d;
+}
+
+.game:first-child {
+    font-weight: 600;
+}
+
+.game > * {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-weight: 700;
+}
+
+
+
+.game > button {
+    background-color: #363636;
+    border: 2px solid #F58C0E;
+    color: antiquewhite;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.gamepic {
+    border-radius: 16px;
+}
+
+.topgames {
+    border-radius: 8px;
+    padding: 1%;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: #1a1a1a;
+    width: 70%;
+    min-width: 360px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .topgames {
+        width: 95%;
+    }
+    .game {
+        margin: 20px;
+   }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+    .topgames {
+        width: 90%;
+    }
+}

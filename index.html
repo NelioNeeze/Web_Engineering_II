@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/voting.css">
+    <link rel="stylesheet" href="css/topgamesbanner.css">
+    <link rel="stylesheet" href="css/searchbar.css">
+    <script src="js/responsivegames.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;0,800;1,200;1,300&display=swap"
+        rel="stylesheet">
+
+    <title>Zenga - Home</title>
+
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="headerelements">
+            <img class="logo" src="imgs/zenga.png" alt="Zenga" onclick="location.href='index.html'" />
+            <div class="right">
+                <input id="loginbutton" type="submit" value="Login" onclick="location.href='login.html'">
+            </div>
+        </div>
+    </div>
+
+
+    <div id="content">
+
+        <div class="topbar">
+            <input id="search" type="text" placeholder="Search ...">
+            <button id="addpost" type="submit" onclick="location.href='addpost.html'">Add post</button>
+        </div>
+
+        <h2 id="gamestitle">Most popular games</h2>
+
+        <div class="topgames">
+            <div class="game">
+                <img class="gameimg" src="imgs/among us.jpg" alt="" onclick="location.href='gameview.html'">
+                <figcaption class="imglabel">Among us</figcaption>
+            </div>
+
+            <div class="game">
+                <img class="gameimg" src="imgs/tarkov.jpg" alt="" onclick="location.href='gameview.html'">
+                <p class="imglabel">Tarkov</p>
+            </div>
+
+            <div class="game">
+                <img class="gameimg" src="imgs/dauntless.jpg" alt="" onclick="location.href='gameview.html'">
+                <p class="imglabel">Dauntless</p>
+            </div>
+
+            <div class="game" id="kill1">
+                <img class="gameimg" src="imgs/left4dead.jpg" alt="" onclick="location.href='gameview.html'">
+                <p class="imglabel">Left 4 Dead</p>
+            </div>
+
+            <div class="game" id="kill2">
+                <img class="gameimg" src="imgs/warzone.jpg" alt="" onclick="location.href='gameview.html'">
+                <p class="imglabel">Warzone</p>
+            </div>
+
+            <div class="game" onclick="location.href='topgames.html'">
+                <img class="plusimg" src="imgs/plus.png" alt="" >
+                <p class="imglabel">More</p>
+            </div>
+        </div>
+
+
+        <div class="post">
+            <div class="blockbanner">
+                <h2 class="posttitle" onclick="location.href='gameview.html'">Left 4 Dead</h2>
+                <button type="button" class="morebutton" onclick="location.href='gameview.html'">More</button>
+            </div>
+            <div class="postcontent">
+                <div class="voting">
+                    <img class="upvote" src="imgs/arrow.png" alt="upvote">
+                    <p>+42</p>
+                    <img src="imgs/arrow.png" alt="downvote">
+                </div>
+                <div class="purepost">
+                    <h3 class="posttitle" onclick="location.href='postview.html'"> I am a Post </h3>
+                    <img id="myImg" src="imgs/cod.jpg" alt="Snow" style="width:100%;max-width:300px">
+                </div>
+            </div>
+            <div class="postcontent">
+                <div class="voting">
+                    <img class="upvote" src="imgs/arrow.png" alt="upvote">
+                    <p>+33</p>
+                    <img src="imgs/arrow.png" alt="downvote">
+                </div>
+                <div>
+                    <h3 class="posttitle" onclick="location.href='postview.html'"> I am a Post </h3>
+                    <p class="posttext" onclick="location.href='postview.html'"> Lorem ipsum dolor sit amet. Lorem ipsum
+                        dolor sit amet, consetetur
+                        sadipscing elitr, ipsum dolor sit sed diam nonumy. Ipsum dolor sit amet, consetetur
+                        sadipscing elitr, sed diam consetetur nonumy. </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="post">
+            <div class="blockbanner">
+                <h2 class="posttitle" onclick="location.href='gameview.html'">Dauntless</h2>
+                <button type="button" class="morebutton" onclick="location.href='gameview.html'">More</button>
+            </div>
+            <div class="postcontent">
+                <div class="voting">
+                    <img class="upvote" src="imgs/arrow.png" alt="upvote">
+                    <p>+42</p>
+                    <img src="imgs/arrow.png" alt="downvote">
+                </div>
+                <div>
+                    <h3 class="posttitle" onclick="location.href='postview.html'"> I am a Post </h3>
+                    <p class="posttext" onclick="location.href='postview.html'"> Lorem ipsum dolor sit amet. Lorem ipsum
+                        dolor sit amet, consetetur
+                        sadipscing elitr, ipsum dolor sit sed diam nonumy. Ipsum dolor sit amet, consetetur
+                        sadipscing elitr, sed diam consetetur nonumy. </p>
+                </div>
+            </div>
+            <div class="postcontent">
+                <div class="voting">
+                    <img class="upvote" src="imgs/arrow.png" alt="upvote">
+                    <p>+33</p>
+                    <img src="imgs/arrow.png" alt="downvote">
+                </div>
+                <div>
+                    <h3 class="posttitle" onclick="location.href='postview.html'"> I am a Post </h3>
+                    <p class="posttext" onclick="location.href='postview.html'"> Lorem ipsum dolor sit amet. Lorem ipsum
+                        dolor sit amet, consetetur
+                        sadipscing elitr, ipsum dolor sit sed diam nonumy. Ipsum dolor sit amet, consetetur
+                        sadipscing elitr, sed diam consetetur nonumy. </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="post">
+            <div class="blockbanner">
+                <h2 class="posttitle" onclick="location.href='gameview.html'">Among us</h2>
+                <button type="button" class="morebutton" onclick="location.href='gameview.html'">More</button>
+            </div>
+            <div class="postcontent">
+                <div class="voting">
+                    <img class="upvote" src="imgs/arrow.png" alt="upvote">
+                    <p>+42</p>
+                    <img src="imgs/arrow.png" alt="downvote">
+                </div>
+                <div>
+                    <h3 class="posttitle" onclick="location.href='postview.html'"> I am a Post </h3>
+                    <p class="posttext" onclick="location.href='postview.html'"> Lorem ipsum dolor sit amet. Lorem ipsum
+                        dolor sit amet, consetetur
+                        sadipscing elitr, ipsum dolor sit sed diam nonumy. Ipsum dolor sit amet, consetetur
+                        sadipscing elitr, sed diam consetetur nonumy. </p>
+                </div>
+            </div>
+            <div class="postcontent">
+                <div class="voting">
+                    <img class="upvote" src="imgs/arrow.png" alt="upvote">
+                    <p>+33</p>
+                    <img src="imgs/arrow.png" alt="downvote">
+                </div>
+                <div>
+                    <h3 class="posttitle" onclick="location.href='postview.html'"> I am a Post </h3>
+                    <p class="posttext" onclick="location.href='postview.html'"> Lorem ipsum dolor sit amet. Lorem ipsum
+                        dolor sit amet, consetetur
+                        sadipscing elitr, ipsum dolor sit sed diam nonumy. Ipsum dolor sit amet, consetetur
+                        sadipscing elitr, sed diam consetetur nonumy. </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>

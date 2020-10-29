@@ -1,0 +1,101 @@
+body {
+    background-color: #212426;
+    font-family: 'Poppins', sans-serif;
+}
+
+.content {
+    color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.content > * {
+    background-color: #1a1a1a;
+    border-radius: 8px;
+}
+
+.abos {
+    width: 18%;
+    min-width: 270px;
+}
+
+.posts {
+    width: 32%;
+}
+
+.commented {
+    width: 32%;
+}
+
+.post {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    background: #1d1d1d;
+    border-radius: 8px;
+    margin-right: 20px;
+    margin-left: 20px;
+    box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.posttitle {
+    cursor: pointer;
+}
+
+.posttext {
+    margin-top: -20px;
+    cursor: pointer;
+}
+
+.label {
+    text-align: center;
+}
+
+.game {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+
+    padding-right: 5%;
+    padding-left: 5%;
+    background-color: #202020;
+    border-radius: 8px;
+    margin: 15px;
+    font-weight: 600;
+    font-size: large;
+    box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.game > img {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .content {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .abos {
+        width: 96%;
+    }
+    
+    .posts {
+        width: 96%;
+    }
+    
+    .commented {
+        width: 96%;
+    }
+}

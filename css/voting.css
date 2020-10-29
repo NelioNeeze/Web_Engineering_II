@@ -1,0 +1,27 @@
+.upvote {
+    transform: rotate(180deg);
+}
+
+.voting {
+    justify-content: center;
+    align-items: center;
+    padding-left: 3%;
+}
+
+.voting { 
+    display: flex;
+    flex-direction: column;
+}
+
+.voting > img {
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+}
+  
+@media only screen and (max-width: 600px) {
+    .voting {
+        justify-content: flex-start;
+        margin-top: 15px;
+    }
+}

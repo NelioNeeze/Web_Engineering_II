@@ -1,0 +1,112 @@
+body{
+    background-color: #212426;
+    font-family: 'Poppins', sans-serif;
+}
+
+#banner{
+    color: antiquewhite ;
+    background-color: #1d1d1d;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    font-size: xx-large;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 35px;
+    box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.subscribe {
+    background-color:  #212426;
+    border: 2px solid #F58C0E;
+    color: antiquewhite;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.post {
+    display: flex;
+    gap: 4%;
+    flex-direction: row;
+    box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background:#1d1d1d;
+    color: antiquewhite;
+    padding: 15px;
+    padding-left: 2% ;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#actualpost {
+    background-color: #222222;
+    border-radius: 8px;
+    padding: 1px 20px;
+    margin-top: 10px;
+}
+
+.gamename {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: large;
+    font-weight: 500;
+    border: 1px solid #F58C0E;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.posttitle {
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+.posttext {
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+#content {
+    margin: auto;
+    min-width: 360px;
+    width: 70%;
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    #content {
+        width: 95%;
+    }
+    #gamestitle{
+        margin-top: -30px;
+    }
+    #gamestitle {
+        font-size: 100%;
+        margin-top: 25px;
+    }
+    #banner {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .post { 
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+    #content {
+        width: 90%;
+    }
+}

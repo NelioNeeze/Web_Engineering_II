@@ -1,0 +1,30 @@
+@media screen and (max-width: 450px) {
+
+    #content { 
+        width: 95%;
+    }
+    
+}
+
+@media screen and (min-width: 500px) and (min-width: 4000px) {
+
+    #content { 
+        width: 95%;
+    }
+
+}
+
+@media screen and (min-width: 4000px) {
+
+    #content { 
+        width: 70%;
+    }
+
+}
+
+#content {
+    margin: auto;
+    margin-bottom: 50px;
+    min-width: 360px;
+    width: 70%;
+}

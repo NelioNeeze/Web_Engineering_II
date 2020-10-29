@@ -1,0 +1,117 @@
+body {
+  color: antiquewhite;
+  background-color: #212426;
+  font-family: 'Poppins', sans-serif;
+}
+
+:root {
+  --main-radius: 5px;
+  --main-padding: 5px;
+}
+
+.gamename {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: large;
+  font-weight: 500;
+  border: 1px solid #F58C0E;
+  border-radius: 7px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.postcontent {
+  display: flex;
+  flex-direction: row;
+  background-color: #1d1d1d;
+  box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  gap: 5%;
+  border-radius: 8px;
+  margin-bottom: 20px; 
+  padding: 10px;
+  padding-right: 4%;
+}
+
+.blockbanner {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  padding-right: 4%;
+}
+
+.purepost > img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.morebutton {
+  background-color: #212426;
+  border: 2px solid #F58C0E;
+  color: antiquewhite;
+  font-family: 'Poppins', sans-serif;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.post {
+  background: #1a1a1a;
+  color: antiquewhite;
+  padding: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 11px;
+  padding-top: 0;
+  margin-top: 35px;
+}
+
+.posttitle {
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+}
+
+.posttext {
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+}
+
+#content {
+  min-width: 360px;
+  width: 70%;
+  margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  #content {
+      width: 95%;
+  }
+  #gamestitle {
+    text-align: left;
+  }
+
+  .blockbanner { 
+    justify-content: space-between;
+  }
+
+  .post {
+    padding-left: 13px;
+    padding-right: 13px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+  #content {
+      width: 90%;
+  }
+}
+
+
+

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/gameview.css">
+    <link rel="stylesheet" href="css/voting.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/searchbar.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;0,800;1,200;1,300&display=swap"
+        rel="stylesheet">
+
+    <title>Zenga - Post</title>
+
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="headerelements">
+            <img class="logo" src="imgs/zenga.png" alt="Zenga" onclick="location.href='index.html'" />
+            <div class="right">
+                <img src="imgs/profile.png" alt="profile" onclick="location.href='profile.html'">
+            <input id="loginbutton" type="submit" value="Logout" onclick="location.href='login.html'">
+            </div>
+        </div>
+    </div>
+
+    <div id="content">
+
+        <div class="topbar">
+            <input  id="search" type="text" placeholder="Search ...">
+            <button id="addpost" type="submit" onclick="location.href='addpost.html'">Add post</button>
+        </div>
+
+
+        <div id="banner">
+            <h2 id="gamestitle">Among us</h2>
+            <button class="subscribe" type="button">Subscribe</button>
+        </div>
+
+
+        <div class="post">
+            
+            <div class="voting">
+                <img class="upvote" src="imgs/arrow.png" alt="upvote">
+                <p>+42</p>
+                <img src="imgs/arrow.png" alt="downvote">
+            </div>
+
+            <div>
+                <h3 class="posttitle" onclick="location.href='postview.html'"> I am a Post </h3>
+                <p class="posttext" onclick="location.href='postview.html'"> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                    invidunt ut laboreno sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+                    sadipscing elitr, sed diam nonumy
+                    eirmod tempor invidunt ... </p>
+                <p class="author">By NelioNeeze</p>
+            </div>
+            
+        </div>
+
+        <div class="post">
+
+            <div class="voting">
+                <img class="upvote" src="imgs/arrow.png" alt="upvote">
+                <p>+72</p>
+                <img src="imgs/arrow.png" alt="downvote">
+            </div>
+
+            <div>
+                <h3 class="posttitle" onclick="location.href='postview.html'"> I am also another Post </h3>
+                <p class="posttext" onclick="location.href='postview.html'"> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                    invidunt ut labore
+                    et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+                    rebum. Stet clita kasd gubergren,
+                    no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+                    sadipscing elitr, sed diam nonumy
+                    eirmod tempor invidunt ... </p>
+                <p class="author">By NelioNeeze</p>
+            </div>
+        </div>
+
+        <div class="post">
+
+            <div class="voting">
+                <img class="upvote" src="imgs/arrow.png" alt="upvote">
+                <p>+11</p>
+                <img src="imgs/arrow.png" alt="downvote">
+            </div>
+
+            <div>
+                <h3 class="posttitle" onclick="location.href='postview.html'"> I am another Post </h3>
+                <p class="posttext" onclick="location.href='postview.html'"> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                    invidunt ut labore
+                    et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+                    rebum. Stet clita kasd gubergren,
+                    no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+                    sadipscing elitr, sed diam nonumy
+                    eirmod tempor invidunt ... </p>
+                <p class="author">By NelioNeeze</p>
+            </div>
+            
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
